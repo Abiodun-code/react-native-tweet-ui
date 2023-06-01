@@ -8,7 +8,7 @@ const Tweet = ({ tweet }) => {
   return (
     <Pressable
       onPress={() => {
-        navigate("TweetDetailScreen", { tweet });
+        navigate("TweetDetailsScreen", { tweet });
       }}
     >
       <TweetContent tweet={tweet} />
